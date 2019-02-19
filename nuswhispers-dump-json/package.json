@@ -1,0 +1,22 @@
+{
+  "name": "nuswhispers-dump-json",
+  "version": "0.1.0",
+  "description": "Dumps NUSWhispers public confessions to JSON format.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nusmodifications/nuswhispers-dump-json"
+  },
+  "keywords": [
+    "nuswhispers",
+    "dump",
+    "json"
+  ],
+  "author": "Melvin Lee <zy@zy.sg> (http://zy.sg)",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "mysql": "^2.10.2",
+    "tunnel-ssh": "^2.1.1"
+  }
+}
