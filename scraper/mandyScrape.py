@@ -1,6 +1,3 @@
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-%matplotlib inline
-
+import requests
+url = requests.get(https://www.facebook.com/ajax/bz)
+url.json()
